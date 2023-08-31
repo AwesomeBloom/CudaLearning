@@ -1,0 +1,10 @@
+"D:\CLion 2023.1.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe" -G Ninja -S "X:\0 loading stuffs\CudaLearning" -B "X:\0 loading stuffs\CudaLearning\cmake-build-release-visual-studio"
+-- The CUDA compiler identification is NVIDIA 12.2.91
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.2/bin/nvcc.exe - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: X:/0 loading stuffs/CudaLearning/cmake-build-release-visual-studio
