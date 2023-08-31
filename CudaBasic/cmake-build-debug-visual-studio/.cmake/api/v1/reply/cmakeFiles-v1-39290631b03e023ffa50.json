@@ -1,0 +1,96 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeCUDACompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCUDAInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-NVIDIA-CUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/CLion 2023.1.5/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "X:/0 loading stuffs/CudaLearning/cmake-build-debug-visual-studio",
+		"source" : "X:/0 loading stuffs/CudaLearning"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
