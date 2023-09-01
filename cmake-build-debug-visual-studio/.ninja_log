@@ -1,5 +1,18 @@
 # ninja log v5
-1	1424	7151127110895961	CMakeFiles/CudaLearning.dir/main.cu.obj	61d0193d8e3c2895
-1424	2251	7151127119186384	CMakeFiles/CudaLearning.dir/cmake_device_link.obj	c1e3398752c23dbd
-2251	2396	7151127120241565	CudaLearning.exe	28300cb1f137abb4
+2	2522	7151782493085302	CMakeFiles/CudaLearning.dir/main.cu.obj	61d0193d8e3c2895
+2522	3344	7151782501387588	CMakeFiles/CudaLearning.dir/cmake_device_link.obj	8a87c6ecf60f496a
+3344	3474	7151782502232693	CudaLearning.exe	1ff68986426db82
 3	1527	7151119348384204	CMakeFiles/CudaLearning.dir/runner.cu.obj	51dfbd28103a53af
+4	389	7151757057743267	CMakeFiles/CudaLearning.dir/utils.cpp.obj	f50ab6f915a244ac
+0	59	7151853991040294	build.ninja	76125e7f5cf9c47b
+4	647	7151854050077678	CMakeFiles/CudaLearning.dir/utils.cpp.obj	f50ab6f915a244ac
+2	2603	7151854069541946	CMakeFiles/CudaLearning.dir/main.cu.obj	61d0193d8e3c2895
+2603	3431	7151854077853281	CMakeFiles/CudaLearning.dir/cmake_device_link.obj	97602d6c3d55de2d
+3431	3802	7151854080623579	CudaLearning.exe	3df679f7551d0930
+5	198	7151854192332559	CMakeFiles/CudaLearning.dir/utils.cpp.obj	f50ab6f915a244ac
+2	2125	7151854459690329	CMakeFiles/CudaLearning.dir/main.cu.obj	61d0193d8e3c2895
+2125	2958	7151854468084755	CMakeFiles/CudaLearning.dir/cmake_device_link.obj	97602d6c3d55de2d
+2958	3114	7151854469216683	CudaLearning.exe	3df679f7551d0930
+1	2018	7151854609357528	CMakeFiles/CudaLearning.dir/main.cu.obj	61d0193d8e3c2895
+2019	2858	7151854617815987	CMakeFiles/CudaLearning.dir/cmake_device_link.obj	97602d6c3d55de2d
+2858	3010	7151854618788365	CudaLearning.exe	3df679f7551d0930

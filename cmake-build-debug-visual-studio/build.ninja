@@ -57,6 +57,13 @@ build CMakeFiles\CudaLearning.dir\main.cu.obj: CUDA_COMPILER__CudaLearning_Debug
   TARGET_COMPILE_PDB = CMakeFiles\CudaLearning.dir\
   TARGET_PDB = CudaLearning.pdb
 
+build CMakeFiles\CudaLearning.dir\utils.cpp.obj: CXX_COMPILER__CudaLearning_Debug X$:\0$ loading$ stuffs\CudaLearning\utils.cpp || cmake_object_order_depends_target_CudaLearning
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi -std:c++17
+  OBJECT_DIR = CMakeFiles\CudaLearning.dir
+  OBJECT_FILE_DIR = CMakeFiles\CudaLearning.dir
+  TARGET_COMPILE_PDB = CMakeFiles\CudaLearning.dir\
+  TARGET_PDB = CudaLearning.pdb
+
 
 # =============================================================================
 # Device Link build statements for EXECUTABLE target CudaLearning
@@ -65,9 +72,10 @@ build CMakeFiles\CudaLearning.dir\main.cu.obj: CUDA_COMPILER__CudaLearning_Debug
 #############################################
 # Link the executable CMakeFiles\CudaLearning.dir\cmake_device_link.obj
 
-build CMakeFiles\CudaLearning.dir\cmake_device_link.obj: CUDA_EXECUTABLE_DEVICE_LINKER__CudaLearning_Debug CMakeFiles\CudaLearning.dir\main.cu.obj
+build CMakeFiles\CudaLearning.dir\cmake_device_link.obj: CXX_EXECUTABLE_DEVICE_LINKER__CudaLearning_Debug CMakeFiles\CudaLearning.dir\main.cu.obj CMakeFiles\CudaLearning.dir\utils.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler=" -Ob0 -Od /RTC1" --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler=-MDd -Xcompiler=-Zi
   LINK_LIBRARIES = cudadevrt.lib cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_PATH = -LIBPATH:C:\PROGRA~1\NVIDIA~2\CUDA\v12.2\lib\x64
   OBJECT_DIR = CMakeFiles\CudaLearning.dir
   TARGET_COMPILE_PDB = CMakeFiles\CudaLearning.dir\
   TARGET_FILE = CMakeFiles\CudaLearning.dir\cmake_device_link.obj
@@ -81,10 +89,11 @@ build CMakeFiles\CudaLearning.dir\cmake_device_link.obj: CUDA_EXECUTABLE_DEVICE_
 #############################################
 # Link the executable CudaLearning.exe
 
-build CudaLearning.exe: CUDA_EXECUTABLE_LINKER__CudaLearning_Debug CMakeFiles\CudaLearning.dir\main.cu.obj CMakeFiles\CudaLearning.dir\cmake_device_link.obj
-  FLAGS = -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler=" -Ob0 -Od /RTC1" --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler=-MDd -Xcompiler=-Zi
-  LINK_FLAGS = /debug /INCREMENTAL
+build CudaLearning.exe: CXX_EXECUTABLE_LINKER__CudaLearning_Debug CMakeFiles\CudaLearning.dir\main.cu.obj CMakeFiles\CudaLearning.dir\utils.cpp.obj CMakeFiles\CudaLearning.dir\cmake_device_link.obj
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = cudadevrt.lib  cudart_static.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_PATH = -LIBPATH:C:\PROGRA~1\NVIDIA~2\CUDA\v12.2\lib\x64
   OBJECT_DIR = CMakeFiles\CudaLearning.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -138,14 +147,14 @@ build all: phony CudaLearning.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.25.2\CMakeCUDACompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCUDAInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake X$:\0$ loading$ stuffs\CudaLearning\CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.25.2\CMakeCUDACompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCUDAInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake X$:\0$ loading$ stuffs\CudaLearning\CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles\3.25.2\CMakeCUDACompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCUDAInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake X$:\0$ loading$ stuffs\CudaLearning\CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles\3.25.2\CMakeCUDACompiler.cmake CMakeFiles\3.25.2\CMakeCXXCompiler.cmake CMakeFiles\3.25.2\CMakeRCCompiler.cmake CMakeFiles\3.25.2\CMakeSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCUDAInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeRCInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\MSVC.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Compiler\NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows-NVIDIA-CUDA.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\Windows.cmake D$:\CLion$ 2023.1.5\bin\cmake\win\x64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake X$:\0$ loading$ stuffs\CudaLearning\CMakeLists.txt: phony
 
 
 #############################################

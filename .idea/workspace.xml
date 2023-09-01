@@ -3,14 +3,16 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="CudaLearning" targetName="CudaLearning" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -22,110 +24,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="177ab1da-8f4b-432d-8c34-b4dd2d79bef6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/control_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/.idea/CudaLearning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cache-v2-b13ed5400540e6a9ed56.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cache-v2-b13ed5400540e6a9ed56.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-39290631b03e023ffa50.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-39290631b03e023ffa50.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/codemodel-v2-f6508c1b7cbc5aff3b3f.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/codemodel-v2-f6508c1b7cbc5aff3b3f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/index-2023-08-30T15-30-53-0736.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/index-2023-08-30T15-30-53-0736.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-CudaLearning-Debug-cb3d751efe5d8cba2e52.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-CudaLearning-Debug-cb3d751efe5d8cba2e52.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.cmake/api/v1/reply/toolchains-v1-208bcf66cd7f2317bb5c.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/toolchains-v1-208bcf66cd7f2317bb5c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeCUDACompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeCUDACompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CUDA.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CUDA.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/a.exp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/a.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/a.lib" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/a.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp1.ii" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp1.ii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp1.ii.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp1.ii.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp4.ii" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp4.ii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp4.ii.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp4.ii.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.gpu" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.gpu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.stub.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.stub.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.fatbin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.fatbin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.fatbin.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.fatbin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.module_id" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.module_id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.obj.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.obj.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.ptx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.ptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.sm_52.cubin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/CMakeCUDACompilerId.sm_52.cubin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a.exe.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a.exe.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.fatbin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.fatbin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.fatbin.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.fatbin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.obj.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.obj.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.reg.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.reg.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.sm_52.cubin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.sm_52.cubin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.sm_52.cubin.optf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/3.25.2/CompilerIdCUDA/tmp/a_dlink.sm_52.cubin.optf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/cmake_device_link.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/cmake_device_link.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/embed.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/embed.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/intermediate.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/intermediate.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/main.cu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/main.cu.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/manifest.rc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/manifest.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/manifest.res" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/manifest.res" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/runner.cu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/runner.cu.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/foo.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/foo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/ShowIncludes/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/clion-Debug-Visual Studio-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-Debug-Visual Studio-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CudaLearning.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CudaLearning.exp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CudaLearning.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CudaLearning.lib" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/CudaLearning.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug-visual-studio/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/3.25.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/clion-Release-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/cmake-build-release/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/local_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/main.cu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/runner.cu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CudaBasic/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cache-v2-b13ed5400540e6a9ed56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-39290631b03e023ffa50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/codemodel-v2-d7df980e41716db3c658.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/index-2023-08-31T02-07-48-0636.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/target-CudaLearning-Debug-9ce0aea890d7de6ae137.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.cmake/api/v1/reply/toolchains-v1-208bcf66cd7f2317bb5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/cmake_device_link.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/cmake_device_link.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/main.cu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/main.cu.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/CudaLearning.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CudaLearning.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/cache-v2-3fa6ea926614f7807ce6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/cmakeFiles-v1-bc04b431c63475f2bcb8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/codemodel-v2-d81a8c32640fad2e1ff2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/index-2023-08-31T02-07-54-0936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/target-CudaLearning-Release-56c3df9a96c6900ef44f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/.cmake/api/v1/reply/toolchains-v1-208bcf66cd7f2317bb5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/clion-Release-Visual Studio-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/clion-Release-Visual Studio-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release-visual-studio/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release-visual-studio/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/main.cu" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +69,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Visual Studio" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -151,37 +86,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="CMake Application.Unnamed">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager">
     <configuration name="CudaLearning" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CudaLearning" TARGET_NAME="CudaLearning" CONFIG_NAME="Debug-Visual Studio" RUN_TARGET_PROJECT_NAME="CudaLearning" RUN_TARGET_NAME="CudaLearning">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-Visual Studio" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="CMake Application.Unnamed" />
-      <item itemvalue="CMake Application.CudaLearning" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,7 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693447550298</updated>
-      <workItem from="1693447551475" duration="116000" />
+      <workItem from="1693447551475" duration="15147000" />
+      <workItem from="1693482172928" duration="860000" />
     </task>
     <servers />
   </component>
@@ -203,5 +135,27 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cuda_by_example/common/cpu_bitmap.h</url>
+          <line>66</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

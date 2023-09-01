@@ -357,3 +357,35 @@ Parsed CUDA implicit link information from above output:
   implicit fwks: []
 
 
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: X:/Visual Studio 2022/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.36.32537.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "X:/0 loading stuffs/CudaLearning/cmake-build-release-visual-studio/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: X:/0 loading stuffs/CudaLearning/cmake-build-release-visual-studio/CMakeFiles/CMakeScratch/TryCompile-aw4idv
+
+Run Build Command(s):D:/CLion 2023.1.5/bin/ninja/win/x64/ninja.exe cmTC_56250 && [1/2] Building CXX object CMakeFiles\cmTC_56250.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_56250.exe
+
+
+
